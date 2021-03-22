@@ -1,0 +1,144 @@
+/*--------------------------------------TAGS-----------------------------------*/
+body {
+  margin: 0;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  color: #40514e;
+}
+
+h1 {
+  margin-top: 0;
+  font-family: 'Dancing Script';
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #66BFBF;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+a {
+  color: #11999E;
+}
+
+a:hover {
+
+  color: #EAF6F6;
+}
+
+hr {
+  border-style: dotted;
+  border-width: 9px 0 0 0;
+  width: 8%;
+  /*color: #EAF6F6;*/
+  margin: 100px auto ;
+}
+
+/*--------------------------------CONTAINERS-----------------------------------*/
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  padding: 100px 0 100px 0;
+  line-height: 50px
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 50px 0;
+}
+
+/*--------------------------------CLASSES--------------------------------------*/
+.top-cloud {
+  position: absolute;
+  right: 450px;
+  top: 70px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 450px;
+}
+
+.logo {
+  border-radius: 50%
+}
+
+.code {
+  margin-right: 30px;
+  border-radius: 50%;
+  float: left;
+}
+
+.audio {
+  float: right;
+  margin-left: 30px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.programmer {
+  font-weight: normal;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.copyright {
+  font-size: 1rem;
+  color: #eaf6f6;
+  padding-top: 20px;
+}
+
+.footer-link {
+  color: #11999E;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0 30px 0 30px;
+}
+
+.btn {
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #428181);
+  background-image: -moz-linear-gradient(top, #66BFBF, #428181);
+  background-image: -ms-linear-gradient(top, #66BFBF, #428181);
+  background-image: -o-linear-gradient(top, #66BFBF, #428181);
+  background-image: -webkit-gradient(to bottom, #66BFBF, #428181);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px 25px 10px 25px;
+  ;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 40px;
+}
